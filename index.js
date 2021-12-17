@@ -17,7 +17,7 @@ const twoLastDigitsOfTheYear = String(today.getFullYear()).slice(2)
 // Verificando se um dia da semana existe
 const dayOfTheWeekLikeGNOME = today.toDateString().substring(0, 3)
 
-const expandDayOfTheWeekLikeGNOME = (day) => {
+const expandDayOfTheWeekLikeGNOME = day => {
   const daysOfTheWeek = {
     Sun: "Sunday",
     Mon: "Monday",
